@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navigation */
+
+.navigation{
+    width: 100%;
+}
+.navigation__container{
+    width: 85%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation__logo a{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navigation__linkbox{
+    width: 650px;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+}
+.navigation__item{
+    list-style: none;
+}
+.navigation__link{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+.navigation__search{
+    background: none;
+    border: 2px white solid;
+    padding: 8px;
+    border-radius: 18px;
+    color: white;
+}
+.fa-magnifying-glass{
+    color: white;
+    position: absolute;
+    right: 120px;
+}
+
+/* Main Content */
+
+.content{
+    width: 100%;
+}
+.content__container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.content__textbox{
+    width: 500px;
+}
+.content__textbox h1{
+    background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.content__textbox h2{
+    color: white;
+    margin-bottom: 50px;
+}
+.content__textbox p{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+.content__textbox button{
+    background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
+    padding: 13px 60px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 300px;
+}
+
+.content__imgbox{
+    width: 500px;
+}
